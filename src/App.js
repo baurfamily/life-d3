@@ -8,11 +8,10 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h2>Conway's Game of Life</h2>
         </div>
         <p className="App-intro">
-          Conway's Game of Life
+          The grid below shows the current world state:
         </p>
         <Life />
       </div>
